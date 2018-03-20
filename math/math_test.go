@@ -21,4 +21,5 @@ func TestLcm(t *testing.T) {
 	assert.Equal(t, 130, Lcm([]int{65, 10, 5}))
 	assert.Equal(t, 65, Lcm([]int{65}))
 	assert.Equal(t, 31416, Lcm([]int{77, 56, 34, 21, 4}))
+	assert.Equal(t, 4, Lcm([]int{4, 2, 1}))
 }
